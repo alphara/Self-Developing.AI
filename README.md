@@ -73,19 +73,21 @@ He could answer:
 
 We could create a technique for AI students on how works the intuition of our AI Engineer, and teach about the intuition.
 
-And then we even can create an app, which works on base of the intuition of the AI Engineer. We could make the algorithm:
-1. App generates code other app from template with CNN code on Keras (or TensorFlow, etc.).
-2. App substitutes loading data to the template (from files pointed out in specification on human language).
-3. App randomly creates model with layers.
-4. App compiles model, train it, and test it.
-5. App changes model, adds/removes layers, changes count of nodes, activation functions and so on.
-6. App train and test model again and gets number of accuracy.
-7. App repeats step 5-6 until got specified level of accuracy or exit by timeout with choosing the best model as result.
-8. App outputs code of the generated app with the best model and accuracy.
+And then we even can create an Parent-AI App, which works on base of the intuition of the AI Engineer. We could make the algorithm:
+1. Parent-AI App generates code other Child-AI App from template with CNN code on Keras (or TensorFlow, etc.).
+2. Parent-AI App substitutes loading data to the Child-AI App template (from files pointed out in specification on human language).
+3. Parent-AI App randomly creates model with layers for Child-AI App.
+4. Parent-AI App executes Child-AI App. Child-AI App compiles model, train it, and test it.
+5. Parent-AI App evaluate accuracy, performance, human feedback (score: 0-100%) optionally and other metrics of Child-AI App.
+6. Parent-AI App changes model, adds/removes layers, changes count of nodes, activation functions and so on. Then regenerate code of Child-AI App.
+7. Parent-AI App repeats steps 4-6 until gets specified level of accuracy or exit by timeout with choosing the best model as result.
+8. Parent-AI App outputs code of the generated Child-AI App with the best model and accuracy.
 
-The app could be created with Deep Learning algorithms (MLP, CNN, etc.) on steps 3, 5 to build "AI App Intuition" on how better to change model and parameters with less count of steps, better perfomance and short time. AI App intuition is software analogue of the AI Engineer intuition.
+The Parent-AI and Child-AI App could be created with Deep Learning algorithms (MLP, CNN, etc.). On steps 3, 6, Parent-AI App has intuition, built with DL algorithms on how better to change model and parameters with less count of steps, better perfomance and short time. AI App intuition is software analogue of the AI Engineer intuition.
 
-Then, we could develop the AI app, which creates AI apps and measures performance, accuracy and even feedback from human in scores 1-100 for example. The task of the AI ap is to improve performance, accuracy and feedback. The app could even develop its own code. We get Self-Improving AI.
+Then, we could develop the Parent-AI App, which creates Child-AI Apps. The task of the Parent-AI App is to get the best possible performance, accuracy and feedback of Child-AI App.
+
+What if Grand-Parent-AI App generates code of Parent-AI App, which generates code of Child-AI App? Grand-Parent-AI, Parent-AI and Child-AI could be the same AI App (Self-Developing AI). So the AI App could develop and generate its own code. We get Self-Developing AI.
 
 # 3. Golden ratio and Fibonacchi numbers!
 
